@@ -96,3 +96,14 @@ input[type="text"] {
     border: 1px solid #000;
 	   font-family: 'Montserrat', sans-serif;
 }
+
+.footer {
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   text-align: center; 
+   width: 100%;   
+   font-size: 19px;
+font-weight: bold;
+  color: #fafaff;
+}
