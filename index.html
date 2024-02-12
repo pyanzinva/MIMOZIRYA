@@ -4,27 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Planning App</title>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
-
 <body>
     <div class="container">
-        <h1></h1>
+        <h1>Planning App</h1>
         <input type="text" id="taskInput" placeholder="Введите сюда задачу">
         <button onclick="addTask()">Добавить задачу</button>
+        <button id="deleteButton" onclick="deleteAllTasks()">Удалить все задачи</button>
         <ul id="taskList"></ul>
     </div>
 
     <script src="script.js"></script>
-	
-	<div class="element"></div>
-	
-<div class="footer">
-  <p>Copyright©</p>
+
+    <div class="element"></div>
+
+    <div class="footer">
+        <p>Copyright©</p>
+    </div>
 </body>
 
 </html>
